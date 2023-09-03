@@ -1,7 +1,7 @@
 # spark-toprank
 Spark Lab uses Python to run Spark job on Spark standalone, the task to calculate the top rank of review goods,  the goods data are downloaded from AWS. 
-
-1.	Lab environment
+<pre>
+1.	Lab environment 
 1 laptop
 OP: window 11 Pro
 Memory (RAM): 16GB
@@ -22,4 +22,6 @@ PYSPARK_DRIVER_PYTHON= C:\Python311\python.exe
 Start Master Node on Spark Standalone:
 spark-class org.apache.spark.deploy.master.Master
 Start a Worker Node and register it in Master Node:
+
+</pre>
 

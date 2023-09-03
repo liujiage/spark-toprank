@@ -85,7 +85,12 @@ Running on backend
 </pre>
 ![image](https://github.com/liujiage/spark-toprank/assets/183577/3d220032-ed96-41fb-be54-97a3043dc8ad)
 
-
-
+<pre>
+Datasets:
+Use the Patio Lawn and Garden review file (Patio_Lawn_and_Garden.json) and
+metadata (meta_Patio_Lawn_and_Garden.json) from the Amazon product dataset
+(https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/).
+Download both files from the “Per-category files” section.
+</pre>
 
 

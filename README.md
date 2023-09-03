@@ -32,9 +32,8 @@ Read Patio_Lawn_and_Garden.json as RDD 2, and using Map SDK to take data we need
 Step 3 
 Joining RDD 1 and RDD 2 and write the result to local.
 More detail can see source code in Appendix B. 
-![image](https://github.com/liujiage/spark-toprank/assets/183577/8747a803-1ea1-4ad4-a0d4-a664ba8b8f62)
-
 Note: Below photo is a hight level design, that is not include (reduceByKey, SortBy, and Map implement detail). 
 
 </pre>
+![image](https://github.com/liujiage/spark-toprank/assets/183577/8747a803-1ea1-4ad4-a0d4-a664ba8b8f62)
 

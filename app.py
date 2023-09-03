@@ -4,9 +4,8 @@ import sys
 from pyspark import SparkContext, SparkConf
 
 '''
-Student ID: A0268279J
 Student Name: Liu Jiage
-Assignments: CS5344 Lab 1
+Assignments: Lab 1
 Submit Date: 01/09/2023
 '''
 

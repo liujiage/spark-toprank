@@ -23,7 +23,6 @@ Start Master Node on Spark Standalone:
 spark-class org.apache.spark.deploy.master.Master
 Start a Worker Node and register it in Master Node:
 spark-class org.apache.spark.deploy.worker.Worker spark://IP:7077
-  
 2.Implementation
 Step 1 
 Read Patio_Lawn_and_Garden.json  as RDD 1, and through by Spark RDD SDK (map, reduceByKey,SortBy,Take) to process data. ReduceByKey can help group data by key, the key is product id(asin) and review time. Can use this key to find product total reviews in one day, and then using SortBy can sort top 15 records, finally use Map to handle top 15 records, and use product id(asin) as the key.  

@@ -1,5 +1,5 @@
 # spark-toprank
-Spark Lab uses Python to run Spark job on Spark standalone, the task to calculate the top rank of review goods,  the goods data are downloaded from AWS. 
+Spark Lab uses Python Spark RDD to run Spark job on Spark standalone, the task to calculate the top rank of review goods,  the goods data are downloaded from AWS. 
 <pre>
 1.Lab environment 
 1 laptop

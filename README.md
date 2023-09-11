@@ -73,7 +73,7 @@ https://sparkbyexamples.com/spark/show-top-n-rows-in-spark-pyspark/
 Appendix A
 How to package python project for Spark as a job  
 python -m venv pyspark_venv #create a venv for python project 
-./pyspark_venv/Scripts/activate #activate venv only for window
+./pyspark_venv/Scripts/activate #activate venv only for window (Mac source ./pyspark_venv/bin/activate)
 pip freeze > requirements.txt #collecting all dependencies. Make sure your source code inside. 
 python -m pip install --upgrade pip
 pip install -r requirements.txt #install all dependencies into this project’s venv for packaging them. 
